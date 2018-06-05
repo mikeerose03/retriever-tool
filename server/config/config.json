@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "tabtracker",
+    "password": "tabtracker",
+    "database": "tabtracker",
+    "host": "localhost",
+    "dialect": "sqlite",
+    "authentication": {
+      "jwtSecret": "secret"
+    }
+  },
+  "test": {
+    "username": "tabtracker",
+    "password": "tabtracker",
+    "database": "tabtracker",
+    "host": "localhost",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "username": "tabtracker",
+    "password": "tabtracker",
+    "database": "tabtracker",
+    "host": "localhost",
+    "dialect": "sqlite"
+  }
+}
